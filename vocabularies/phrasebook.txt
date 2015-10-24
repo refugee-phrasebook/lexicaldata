@@ -5,10 +5,39 @@ PLEASE:please
 THANKS:thank you
 SORRY:sorry
 
-
-
 	anatomy
-            cf longdoc
+FMA_7154:head
+FMA_54448:eye
+FMA_52780:ear
+FMA_49184	:outh
+FMA_24728:face
+FMA_7155:neck
+FMA_25202:shoulder
+FMA_24901:elbow
+FMA_24964:hip
+FMA_24974:knee
+FMA_9665:ankle
+FMA_9664:foot
+FMA_24890:arm
+FMA_24979:leg
+FMA_9712:hand
+FMA_9666:finger
+FMA_25046:toe
+FMA_9576:chest
+FMA_9577:belly
+FMA_7088:heart
+FMA_7195:lung
+FMA_7148:stomach
+FMA_7202:gallbladder
+FMA_7203:kidney
+FMA_7199:bowel
+FMA_15711:anus
+FMA_17558	:uterus
+FMA_7209:ovary
+FMA_19949:vagina
+FMA_7210:testes
+FMA_9707:penis
+    
 
         hygiene
 SHOWER:shower
@@ -33,12 +62,12 @@ WATER:water
         transport
 TRAIN:train
 CAR:car
-PLANE:plane
+TRANSPORT_PLANE:plane
 TRUCK:truck
 BUS:bus
 PEDESTRIAN:walk
 TRAMWAY:tramway
-TUBE:tube
+SUBWAY:subway
 
         dress
 UNDERPANTS:underpants
@@ -52,7 +81,7 @@ TSHIRT:tshirt
 SHOES:shoes
 SCARF:scarf
 GLOVES:gloves
-CAP:cap
+HAT:hat
 JACKET:jacket
 SLIPPERS:slippers
 BRA:bra
@@ -86,14 +115,14 @@ PERSON_ADULT:adult
 MALE:male
 FEMALE:female
 BABY:baby
-ADDRESS_SELF:me
-ADDRESS_2PERSON:you
-ADDRESS_3PERSON_MALE:he
-ADDRESS_3PERSON_FEMALE:she
-ADDRESS_3PERSON_NEUTRAL:it
-ADDRESS_SELF_GROUP:we
-ADDRESS_2PERSON_GROUP:youpl
-ADDRESS_3PERSON_PLURAL:they
+PRONOUN_SELF:me
+PRONOUN_2PERSON:you
+PRONOUN_3PERSON_MALE:he
+PRONOUN_3PERSON_FEMALE:she
+PRONOUN_3PERSON_NEUTRAL:it
+PRONOUN_SELF_GROUP:we
+PRONOUN_2PERSON_GROUP:youpl
+PRONOUN_3PERSON_PLURAL:they
 
         adjectives
 SIZE_BIG:big
@@ -118,6 +147,7 @@ RELIGION_CHRISTIAN:christian
 RELIGION_ISLAM:islam
 RELIGION_JESIDE:jeside
 RELIGION_JEW:Jew
+ETHNIC_ROM:rom
 poverty
 WAR:war
 WAR_BOMB:bomb
@@ -138,18 +168,20 @@ DIRECTION_FRONT:front
 DIRECTION_BACK:back
 DIRECTION_UP:up
 DIRECTION_DOWN:down
+DIRECTION_INSIDE:inside
+
 
         activities
-CLOTHES_DON:don
-CLOTHES_UNDRESS:undress
+CLOTHES_PUT_ON:put on
+CLOTHES_PUT_OFF:undress
 MOVE_SELF_UP:get up
-MOVE_SELF_FLOOR:lay down
-MOVE_SELF_OBJECT:sit down
+MOVE_SELF_FLOOR:lie down
+MOVE_SELF_SIT:sit down
 WAIT:wait
 ACTION_RETURN:return
 ACTION_REST:rest
 ACTION_EAT:eat
-ACTION:sleep
+ACTION_SLEEP:sleep
 ACTION_GIVE:give
 ACTION_TAKE:take
 
@@ -175,14 +207,13 @@ ISO_3166-1_alpha-2_SY:syria
 ISO_3166-1_alpha-2_IR:iran
 ISO_3166-1_alpha-2_IQ:iraq
 ISO_3166-1_alpha-2_TR:turkey
-STATE_GROUP_EUROPE:all European countries
+ISO_3166-1_alpha-2_: #add all member States of the EU here
 STATE_COASTAL:coastal state
 GEOGRAPHY_SEA:sea
 GEOGRAPHY_SEA_MEDITERRANEAN:mediterranean
 GEOGRAPHY_ISLAND:island
 GEOGRAPHY_COAST:coast
 GEOGRAPHY_MOUNTAIN:mountain
-ETHNIC_ROM:rom
 
         time
 TIME_NOW:now
